@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.utl_file TO cx_cvciq_v3 WITH GRANT OPTION;

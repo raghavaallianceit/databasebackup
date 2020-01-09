@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$memory_current_resize_ops TO cx_cvciq_v3 WITH GRANT OPTION;

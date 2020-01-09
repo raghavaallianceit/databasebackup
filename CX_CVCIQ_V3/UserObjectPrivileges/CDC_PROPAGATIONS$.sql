@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.cdc_propagations$ TO cx_cvciq_v3 WITH GRANT OPTION;

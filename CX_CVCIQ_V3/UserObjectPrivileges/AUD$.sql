@@ -1,0 +1,1 @@
+GRANT DELETE ON sys.aud$ TO cx_cvciq_v3 WITH GRANT OPTION;

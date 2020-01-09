@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$sess_time_model TO cx_cvciq_v3 WITH GRANT OPTION;

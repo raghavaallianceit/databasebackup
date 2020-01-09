@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$sga_target_advice TO cx_cvciq_v3 WITH GRANT OPTION;

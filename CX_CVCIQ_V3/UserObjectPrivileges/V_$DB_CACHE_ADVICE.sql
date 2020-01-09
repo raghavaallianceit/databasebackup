@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$db_cache_advice TO cx_cvciq_v3 WITH GRANT OPTION;

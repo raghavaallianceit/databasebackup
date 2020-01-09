@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.aq$_propagation_status TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_lock TO cx_cvciq_v3 WITH GRANT OPTION;

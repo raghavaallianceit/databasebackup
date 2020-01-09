@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_apply_change_handlers TO cx_cvciq_v3 WITH GRANT OPTION;

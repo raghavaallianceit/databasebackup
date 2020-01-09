@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$instance_recovery TO cx_cvciq_v3 WITH GRANT OPTION;

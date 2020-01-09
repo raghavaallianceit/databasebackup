@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_scheduler_job_run_details TO cx_cvciq_v3 WITH GRANT OPTION;

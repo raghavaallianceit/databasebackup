@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.bi_notification_line_id_seq;

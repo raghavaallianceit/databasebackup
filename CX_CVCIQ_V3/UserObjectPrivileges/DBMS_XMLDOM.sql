@@ -1,0 +1,1 @@
+GRANT EXECUTE ON xdb.dbms_xmldom TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.streams$_prepare_object TO cx_cvciq_v3 WITH GRANT OPTION;

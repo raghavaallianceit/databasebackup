@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_aq_bqview TO cx_cvciq_v3 WITH GRANT OPTION;

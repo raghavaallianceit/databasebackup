@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$buffer_pool TO cx_cvciq_v3 WITH GRANT OPTION;

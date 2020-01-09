@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.bi_mrm_product_details_osc_seq;

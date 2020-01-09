@@ -1,0 +1,2 @@
+GRANT DEBUG ON sys.dbms_aq TO cx_cvciq_v3 WITH GRANT OPTION;
+GRANT EXECUTE ON sys.dbms_aq TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_2pc_pending TO cx_cvciq_v3 WITH GRANT OPTION;

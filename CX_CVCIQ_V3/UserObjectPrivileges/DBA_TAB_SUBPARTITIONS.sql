@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_tab_subpartitions TO cx_cvciq_v3 WITH GRANT OPTION;

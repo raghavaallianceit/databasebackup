@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX cx_cvciq_v3.bi_search_param_mapping_pk ON cx_cvciq_v3.bi_search_param_mapping("ID");

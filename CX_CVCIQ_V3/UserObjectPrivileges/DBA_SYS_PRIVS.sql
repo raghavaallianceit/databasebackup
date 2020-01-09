@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_sys_privs TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,21 @@
+CREATE TABLE cx_cvciq_v3.bi_notification_line (
+  "ID" NUMBER,
+  attempts NUMBER,
+  delivery_method VARCHAR2(256 BYTE),
+  sent_at TIMESTAMP,
+  status_message VARCHAR2(256 BYTE),
+  status VARCHAR2(256 BYTE),
+  template_id NUMBER,
+  carrier_attempts NUMBER,
+  external_id VARCHAR2(256 BYTE),
+  insert_by VARCHAR2(256 BYTE),
+  update_by VARCHAR2(256 BYTE),
+  insert_at TIMESTAMP,
+  update_at TIMESTAMP,
+  carrier VARCHAR2(256 BYTE),
+  carrier_confirmation VARCHAR2(256 BYTE),
+  notification_header_id NUMBER,
+  template_version NUMBER,
+  deliver_to CLOB,
+  username CLOB
+);

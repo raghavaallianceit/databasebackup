@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.seq_search_param_mapping;

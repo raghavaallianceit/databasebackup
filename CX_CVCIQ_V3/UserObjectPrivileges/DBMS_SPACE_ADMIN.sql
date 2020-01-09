@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_space_admin TO cx_cvciq_v3 WITH GRANT OPTION;

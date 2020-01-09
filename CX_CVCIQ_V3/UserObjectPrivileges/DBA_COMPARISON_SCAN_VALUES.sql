@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_comparison_scan_values TO cx_cvciq_v3 WITH GRANT OPTION;

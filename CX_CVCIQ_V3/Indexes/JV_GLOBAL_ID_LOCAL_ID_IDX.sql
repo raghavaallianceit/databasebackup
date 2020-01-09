@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.jv_global_id_local_id_idx ON cx_cvciq_v3.jv_global_id(local_id);

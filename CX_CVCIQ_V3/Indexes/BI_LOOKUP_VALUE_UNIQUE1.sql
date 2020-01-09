@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX cx_cvciq_v3.bi_lookup_value_unique1 ON cx_cvciq_v3.bi_lookup_value_stage("VALUE",parent_id,lookup_type_id);

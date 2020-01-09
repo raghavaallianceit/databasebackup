@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.all_xstream_administrator TO cx_cvciq_v3 WITH GRANT OPTION;

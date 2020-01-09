@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX cx_cvciq_v3.bi_location_unique ON cx_cvciq_v3.bi_location(location_type_id,"NAME",parent_id);

@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_registered_archived_log TO cx_cvciq_v3 WITH GRANT OPTION;

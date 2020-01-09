@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.xstream$_map TO cx_cvciq_v3 WITH GRANT OPTION;

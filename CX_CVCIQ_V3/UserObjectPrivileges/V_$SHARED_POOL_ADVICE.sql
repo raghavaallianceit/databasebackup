@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$shared_pool_advice TO cx_cvciq_v3 WITH GRANT OPTION;

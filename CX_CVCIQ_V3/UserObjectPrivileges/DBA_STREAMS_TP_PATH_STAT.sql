@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_streams_tp_path_stat TO cx_cvciq_v3 WITH GRANT OPTION;

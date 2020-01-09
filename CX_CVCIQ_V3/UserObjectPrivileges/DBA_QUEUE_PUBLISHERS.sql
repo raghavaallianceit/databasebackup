@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.dba_queue_publishers TO cx_cvciq_v3 WITH GRANT OPTION;

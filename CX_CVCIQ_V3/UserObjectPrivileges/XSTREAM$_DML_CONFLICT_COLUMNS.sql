@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.xstream$_dml_conflict_columns TO cx_cvciq_v3 WITH GRANT OPTION;

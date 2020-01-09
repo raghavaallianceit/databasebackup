@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.all_streams_transformations TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,22 @@
+CREATE TABLE cx_cvciq_v3.bi_tenant (
+  "ID" NUMBER NOT NULL,
+  unique_id VARCHAR2(256 BYTE),
+  "NAME" VARCHAR2(256 BYTE),
+  address1 VARCHAR2(256 BYTE),
+  address2 VARCHAR2(256 BYTE),
+  zipcode VARCHAR2(256 BYTE),
+  city VARCHAR2(256 BYTE),
+  country VARCHAR2(256 BYTE),
+  contact_email VARCHAR2(256 BYTE),
+  contact_phone VARCHAR2(256 BYTE),
+  additional_info VARCHAR2(256 BYTE),
+  is_active CHAR(256 BYTE),
+  "VERSION" NUMBER,
+  created_ts TIMESTAMP WITH LOCAL TIME ZONE,
+  created_by VARCHAR2(256 BYTE),
+  updated_ts TIMESTAMP WITH LOCAL TIME ZONE,
+  updated_by VARCHAR2(256 BYTE),
+  "STATE" VARCHAR2(256 BYTE),
+  CONSTRAINT bi_tenant_pk PRIMARY KEY ("ID"),
+  CONSTRAINT bi_tenantname_unique UNIQUE ("NAME")
+);

@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.tabsubpart$ TO cx_cvciq_v3 WITH GRANT OPTION;

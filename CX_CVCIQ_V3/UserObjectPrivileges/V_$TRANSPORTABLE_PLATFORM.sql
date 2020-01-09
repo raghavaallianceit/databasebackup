@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$transportable_platform TO cx_cvciq_v3 WITH GRANT OPTION;

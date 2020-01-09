@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.gv_$streams_pool_statistics TO cx_cvciq_v3 WITH GRANT OPTION;

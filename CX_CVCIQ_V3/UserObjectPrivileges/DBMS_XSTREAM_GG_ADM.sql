@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_xstream_gg_adm TO cx_cvciq_v3 WITH GRANT OPTION;

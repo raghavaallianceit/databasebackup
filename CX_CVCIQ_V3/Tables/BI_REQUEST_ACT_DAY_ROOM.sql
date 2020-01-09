@@ -1,0 +1,20 @@
+CREATE TABLE cx_cvciq_v3.bi_request_act_day_room (
+  "ID" NUMBER NOT NULL,
+  request_activity_day_id NUMBER,
+  room NUMBER,
+  room_type VARCHAR2(256 BYTE),
+  start_time TIMESTAMP,
+  end_time TIMESTAMP,
+  unique_id VARCHAR2(256 BYTE),
+  tenant_id NUMBER,
+  "VERSION" NUMBER,
+  created_by VARCHAR2(256 BYTE),
+  created_ts TIMESTAMP,
+  updated_by VARCHAR2(256 BYTE),
+  updated_ts TIMESTAMP,
+  request_id NUMBER,
+  CONSTRAINT bi_request_act_day_room_pk PRIMARY KEY ("ID"),
+  CONSTRAINT bi_request_act_day_room_uk UNIQUE (request_activity_day_id,room),
+  CONSTRAINT bi_request_act_day_room_fk FOREIGN KEY (request_activity_day_id) REFERENCES cx_cvciq_v3.bi_request_activity_day ("ID"),
+  CONSTRAINT bi_request_act_location_fk FOREIGN KEY (room) REFERENCES cx_cvciq_v3.bi_location ("ID")
+);

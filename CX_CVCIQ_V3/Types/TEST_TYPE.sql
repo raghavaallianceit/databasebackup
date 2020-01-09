@@ -1,0 +1,2 @@
+CREATE OR REPLACE TYPE cx_cvciq_v3.test_type AS TABLE OF VARCHAR2(100);
+/

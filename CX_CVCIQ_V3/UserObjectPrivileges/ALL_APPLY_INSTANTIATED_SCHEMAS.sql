@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.all_apply_instantiated_schemas TO cx_cvciq_v3 WITH GRANT OPTION;

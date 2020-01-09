@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_distributed_trust_admin TO cx_cvciq_v3 WITH GRANT OPTION;

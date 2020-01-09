@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.spring_session_ix1 ON cx_cvciq_v3.spring_session(last_access_time);

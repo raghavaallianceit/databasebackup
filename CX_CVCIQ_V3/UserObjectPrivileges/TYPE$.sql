@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.type$ TO cx_cvciq_v3 WITH GRANT OPTION;

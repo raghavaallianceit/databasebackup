@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.all_comparison_scan_summary TO cx_cvciq_v3 WITH GRANT OPTION;

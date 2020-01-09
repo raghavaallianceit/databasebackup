@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.jv_commit_property_commit_fk_i ON cx_cvciq_v3.jv_commit_property(commit_fk);

@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$propagation_receiver TO cx_cvciq_v3 WITH GRANT OPTION;

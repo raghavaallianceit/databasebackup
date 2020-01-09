@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_server_alert TO cx_cvciq_v3 WITH GRANT OPTION;

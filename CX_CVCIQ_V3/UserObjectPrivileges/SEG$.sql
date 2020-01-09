@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.seg$ TO cx_cvciq_v3 WITH GRANT OPTION;

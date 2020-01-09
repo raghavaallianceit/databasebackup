@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$current_block_server TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX cx_cvciq_v3.bi_vendor_unique ON cx_cvciq_v3.bi_vendor("NAME");

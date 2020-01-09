@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$sql_workarea_histogram TO cx_cvciq_v3 WITH GRANT OPTION;

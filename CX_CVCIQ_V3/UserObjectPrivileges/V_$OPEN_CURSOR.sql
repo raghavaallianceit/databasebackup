@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$open_cursor TO cx_cvciq_v3 WITH GRANT OPTION;

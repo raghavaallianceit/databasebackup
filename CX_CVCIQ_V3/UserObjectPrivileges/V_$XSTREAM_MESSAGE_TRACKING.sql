@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$xstream_message_tracking TO cx_cvciq_v3 WITH GRANT OPTION;

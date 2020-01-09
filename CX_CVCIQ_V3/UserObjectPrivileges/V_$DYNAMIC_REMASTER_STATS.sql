@@ -1,0 +1,1 @@
+GRANT SELECT ON sys.v_$dynamic_remaster_stats TO cx_cvciq_v3 WITH GRANT OPTION;

@@ -1,0 +1,1 @@
+GRANT EXECUTE ON sys.dbms_flashback_archive TO cx_cvciq_v3 WITH GRANT OPTION;
