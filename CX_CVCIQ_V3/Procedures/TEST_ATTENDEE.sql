@@ -159,7 +159,7 @@ CREATE OR REPLACE PROCEDURE cx_cvciq_v3.test_attendee (
     l_cur_attendee_data   rec_attendee_data;
 BEGIN
         dbms_output.put_line(l_country_array.count);
---- test raghava
+
     out_attendee_tab := return_attendee_arr_result();
     OPEN cur_attendee_data;
     LOOP
