@@ -1,0 +1,21 @@
+CREATE TABLE cx_cvciq_v3.t_cloud_session (
+  "ID" NUMBER(11) NOT NULL,
+  external_id VARCHAR2(128 BYTE),
+  account_id NUMBER(11),
+  session_token VARCHAR2(1024 BYTE),
+  expires_at TIMESTAMP,
+  client_type_id NUMBER(11),
+  auth_code VARCHAR2(256 BYTE),
+  auth_code_expires_at TIMESTAMP,
+  redirect_uri VARCHAR2(256 BYTE),
+  refresh_token_id NUMBER(11),
+  created_at TIMESTAMP,
+  created_by VARCHAR2(256 BYTE),
+  modified_at TIMESTAMP,
+  modified_by VARCHAR2(256 BYTE),
+  oauth_session_id NUMBER(11),
+  idx_token VARCHAR2(8 BYTE),
+  setup_token VARCHAR2(64 BYTE),
+  device_id NUMBER(11),
+  CONSTRAINT t_cloud_session_pk PRIMARY KEY ("ID")
+);

@@ -51,7 +51,7 @@ CREATE OR REPLACE FUNCTION cx_cvciq_v3."FN_DAYLIGHT_SIGNAGEV" (in_ts IN TIMESTAM
                 THEN
 
                     BEGIN
-                      SELECT in_ts - interval '1' hour 
+                      SELECT in_ts + interval '1' hour 
                         INTO l_out_ts 
                         FROM dual;
                     EXCEPTION

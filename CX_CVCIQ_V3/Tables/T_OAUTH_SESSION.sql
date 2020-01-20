@@ -1,0 +1,21 @@
+CREATE TABLE cx_cvciq_v3.t_oauth_session (
+  "ID" NUMBER(11) NOT NULL,
+  external_id VARCHAR2(4000 BYTE),
+  account_id NUMBER(11),
+  session_token VARCHAR2(256 BYTE),
+  expires_at TIMESTAMP,
+  auth_code VARCHAR2(256 BYTE),
+  auth_code_expires_at TIMESTAMP,
+  redirect_uri VARCHAR2(256 BYTE),
+  refresh_token_id NUMBER(11),
+  created_at TIMESTAMP,
+  created_by VARCHAR2(256 BYTE),
+  modified_at TIMESTAMP,
+  modified_by VARCHAR2(256 BYTE),
+  oauth_provider_id NUMBER(11),
+  idx_token VARCHAR2(8 BYTE),
+  aws_region VARCHAR2(256 BYTE),
+  CONSTRAINT t_oauth_session_pk PRIMARY KEY ("ID"),
+  CONSTRAINT oses_provider_id FOREIGN KEY (oauth_provider_id) REFERENCES cx_cvciq_v3.t_oauth_provider_detail ("ID"),
+  CONSTRAINT oses_refresh_id FOREIGN KEY (refresh_token_id) REFERENCES cx_cvciq_v3.t_oauth_refresh_token ("ID")
+);
