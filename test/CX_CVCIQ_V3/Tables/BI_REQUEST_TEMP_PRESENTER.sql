@@ -1,0 +1,20 @@
+CREATE TABLE cx_cvciq_v3.bi_request_temp_presenter (
+  "ID" NUMBER NOT NULL,
+  unique_id VARCHAR2(256 BYTE),
+  first_name VARCHAR2(256 BYTE),
+  last_name VARCHAR2(256 BYTE),
+  title VARCHAR2(256 BYTE),
+  email_id VARCHAR2(256 BYTE),
+  is_active CHAR(6 BYTE),
+  tenant_id NUMBER,
+  created_by VARCHAR2(256 BYTE),
+  updated_by VARCHAR2(256 BYTE),
+  "VERSION" NUMBER,
+  designation VARCHAR2(4000 BYTE),
+  primary_email VARCHAR2(256 BYTE),
+  secondary_email VARCHAR2(256 BYTE),
+  presenter_type VARCHAR2(20 BYTE),
+  request_id NUMBER,
+  created_ts TIMESTAMP,
+  updated_ts TIMESTAMP
+);

@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.bi_worker_header_id_seq;

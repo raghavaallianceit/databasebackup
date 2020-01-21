@@ -1,0 +1,22 @@
+CREATE TABLE cx_cvciq_v3.bi_role_data_access_map (
+  "ID" NUMBER NOT NULL,
+  resource_name VARCHAR2(64 BYTE),
+  role_id NUMBER,
+  tenant_id NUMBER,
+  is_active CHAR(6 BYTE),
+  unique_id VARCHAR2(256 BYTE),
+  created_by VARCHAR2(256 BYTE),
+  updated_by VARCHAR2(256 BYTE),
+  "VERSION" NUMBER,
+  location_sensitive NUMBER(5),
+  private_access NUMBER(5),
+  create_access NUMBER(5),
+  update_access NUMBER(5),
+  delete_access NUMBER(5),
+  read_access NUMBER(5),
+  created_ts TIMESTAMP,
+  updated_ts TIMESTAMP,
+  CONSTRAINT bi_role_data_access_map_pk PRIMARY KEY ("ID"),
+  CONSTRAINT bi_data_role_fk FOREIGN KEY (role_id) REFERENCES cx_cvciq_v3.bi_role ("ID"),
+  CONSTRAINT bi_tenant_role_data_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID")
+);

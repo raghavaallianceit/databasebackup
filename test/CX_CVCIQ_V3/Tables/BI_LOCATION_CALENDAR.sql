@@ -1,0 +1,23 @@
+CREATE TABLE cx_cvciq_v3.bi_location_calendar (
+  "ID" NUMBER NOT NULL,
+  unique_id VARCHAR2(250 BYTE),
+  start_date TIMESTAMP,
+  end_date TIMESTAMP,
+  location_id NUMBER,
+  request_id NUMBER,
+  additional_info VARCHAR2(4000 BYTE),
+  created_by VARCHAR2(256 BYTE),
+  created_ts TIMESTAMP,
+  updated_by VARCHAR2(256 BYTE),
+  updated_ts TIMESTAMP,
+  tenant_id NUMBER,
+  "VERSION" NUMBER,
+  is_active CHAR(256 BYTE),
+  is_all_day_event VARCHAR2(20 BYTE),
+  activity_id NUMBER,
+  activity_day_room_id NUMBER,
+  CONSTRAINT bi_location_calender_pk PRIMARY KEY ("ID"),
+  CONSTRAINT bi_location_calendar_act_fk FOREIGN KEY (activity_id) REFERENCES cx_cvciq_v3.bi_request_activity ("ID"),
+  CONSTRAINT bi_location_calender_t_id_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID"),
+  CONSTRAINT bi_loc_cal_act_day_room_fk FOREIGN KEY (activity_day_room_id) REFERENCES cx_cvciq_v3.bi_request_act_day_room ("ID")
+);

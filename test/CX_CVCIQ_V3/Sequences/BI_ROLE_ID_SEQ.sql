@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.bi_role_id_seq MINVALUE 10;

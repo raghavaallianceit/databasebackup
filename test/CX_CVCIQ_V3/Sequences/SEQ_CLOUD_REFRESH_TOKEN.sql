@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.seq_cloud_refresh_token MAXVALUE 10000000;

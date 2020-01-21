@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.seq_oauth_session MAXVALUE 100000000;

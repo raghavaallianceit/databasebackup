@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.jv_commit_property_property_na ON cx_cvciq_v3.jv_commit_property(property_name,property_value);

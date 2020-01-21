@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.jv_commit_commit_id_idx ON cx_cvciq_v3.jv_commit(commit_id);

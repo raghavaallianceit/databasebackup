@@ -1,0 +1,1 @@
+CREATE SEQUENCE cx_cvciq_v3.bi_cxd_data_seq;

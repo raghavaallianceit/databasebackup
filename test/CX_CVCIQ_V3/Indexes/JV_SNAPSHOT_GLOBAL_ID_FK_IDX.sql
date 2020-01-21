@@ -1,0 +1,1 @@
+CREATE INDEX cx_cvciq_v3.jv_snapshot_global_id_fk_idx ON cx_cvciq_v3.jv_snapshot(global_id_fk);

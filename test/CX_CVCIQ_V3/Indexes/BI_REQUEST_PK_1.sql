@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX cx_cvciq_v3.bi_request_pk_1 ON cx_cvciq_v3.bi_request_stage("ID");

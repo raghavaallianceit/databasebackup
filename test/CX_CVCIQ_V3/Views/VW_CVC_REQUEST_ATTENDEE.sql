@@ -1,0 +1,21 @@
+CREATE OR REPLACE FORCE VIEW cx_cvciq_v3.vw_cvc_request_attendee ("ID",company,company_address,first_name,last_name,email,title,technical,decision_maker,request_id,created_by,created_date,updated_by,update_date,"TYPE",chief_officer,influencer,remote_attendee,order_nbr) AS
+select ID,
+COMPANY,
+COMPANY_ADDRESS,
+INITCAP(FIRST_NAME) FIRST_NAME,
+INITCAP(LAST_NAME) LAST_NAME,
+LOWER(EMAIL) EMAIL,
+TITLE,
+TECHNICAL,
+DECISION_MAKER,
+REQUEST_ID,
+CREATED_BY,
+CREATED_DATE,
+UPDATED_BY,
+UPDATE_DATE,
+TYPE,
+CHIEF_OFFICER,
+INFLUENCER,
+REMOTE_ATTENDEE,
+ORDER_NBR from 
+cx_cvc.CVC_REQUEST_ATTENDEE;
