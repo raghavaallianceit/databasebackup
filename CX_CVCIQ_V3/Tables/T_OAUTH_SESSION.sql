@@ -16,6 +16,7 @@ CREATE TABLE cx_cvciq_v3.t_oauth_session (
   idx_token VARCHAR2(8 BYTE),
   aws_region VARCHAR2(256 BYTE),
   CONSTRAINT t_oauth_session_pk PRIMARY KEY ("ID"),
+  CONSTRAINT oses_account_id FOREIGN KEY (account_id) REFERENCES cx_cvciq_v3.bi_user ("ID"),
   CONSTRAINT oses_provider_id FOREIGN KEY (oauth_provider_id) REFERENCES cx_cvciq_v3.t_oauth_provider_detail ("ID"),
   CONSTRAINT oses_refresh_id FOREIGN KEY (refresh_token_id) REFERENCES cx_cvciq_v3.t_oauth_refresh_token ("ID")
 );

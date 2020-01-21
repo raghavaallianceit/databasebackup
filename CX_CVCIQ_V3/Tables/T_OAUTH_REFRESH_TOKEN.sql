@@ -11,5 +11,6 @@ CREATE TABLE cx_cvciq_v3.t_oauth_refresh_token (
   oauth_provider_id NUMBER(11),
   idx_token VARCHAR2(8 BYTE),
   CONSTRAINT t_oauth_refresh_token_pk PRIMARY KEY ("ID"),
+  CONSTRAINT oauth_account_id FOREIGN KEY (account_id) REFERENCES cx_cvciq_v3.bi_user ("ID"),
   CONSTRAINT oauth_provider_details_id_fk FOREIGN KEY (oauth_provider_id) REFERENCES cx_cvciq_v3.t_oauth_provider_detail ("ID")
 );

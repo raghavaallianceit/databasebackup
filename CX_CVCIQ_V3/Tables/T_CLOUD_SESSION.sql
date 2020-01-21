@@ -17,5 +17,9 @@ CREATE TABLE cx_cvciq_v3.t_cloud_session (
   idx_token VARCHAR2(8 BYTE),
   setup_token VARCHAR2(64 BYTE),
   device_id NUMBER(11),
-  CONSTRAINT t_cloud_session_pk PRIMARY KEY ("ID")
+  CONSTRAINT t_cloud_session_pk PRIMARY KEY ("ID"),
+  CONSTRAINT session_account FOREIGN KEY (account_id) REFERENCES cx_cvciq_v3.bi_user ("ID"),
+  CONSTRAINT session_client_type FOREIGN KEY (client_type_id) REFERENCES cx_cvciq_v3.t_client_type ("ID"),
+  CONSTRAINT session_oauth_provider FOREIGN KEY (oauth_session_id) REFERENCES cx_cvciq_v3.t_oauth_session ("ID"),
+  CONSTRAINT session_refresh_token FOREIGN KEY (refresh_token_id) REFERENCES cx_cvciq_v3.t_cloud_refresh_token ("ID")
 );

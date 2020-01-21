@@ -32,4 +32,5 @@ SELECT a.event_date,
         AND r.id = a.request_id
         AND ( a.main_room = l.id OR a.main_room = l.parent_id)
         AND a.id = b.request_activity_day_id
-        AND TRUNC (a.event_date) =  TRUNC(SYSDATE);
+--        AND TRUNC (a.event_date) =  TRUNC(SYSDATE)
+;
