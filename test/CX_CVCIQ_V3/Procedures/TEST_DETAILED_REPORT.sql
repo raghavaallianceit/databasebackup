@@ -10,7 +10,6 @@ CREATE OR REPLACE PROCEDURE cx_cvciq_v3.TEST_DETAILED_REPORT (
     l_start_row_num    IN                 NUMBER,
     l_end_row_num      IN                 NUMBER
 ) IS
-
     l_chr_srcstage        VARCHAR2(200);
     l_chr_biqtab          VARCHAR2(200);
     l_chr_srctab          VARCHAR2(200);
@@ -147,7 +146,7 @@ BEGIN
         out_detailed_rep_tab.DELETE;
         FOR i IN 1..l_cur_detailed_data.count LOOP
 
-
+-- test ragava
 --						 dbms_output.put_line('Inside cursor   '  );
             BEGIN
                 l_num_counter := l_num_counter + 1;
