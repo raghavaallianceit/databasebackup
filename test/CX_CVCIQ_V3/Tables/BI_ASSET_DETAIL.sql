@@ -15,6 +15,7 @@ CREATE TABLE cx_cvciq_v3.bi_asset_detail (
   "NAME" VARCHAR2(256 BYTE),
   description VARCHAR2(256 BYTE),
   location_id NUMBER,
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_asset_detail_unique UNIQUE ("NAME",asset_master_id,location_id),
   CONSTRAINT bi_asset_detail_location_fk FOREIGN KEY (location_id) REFERENCES cx_cvciq_v3.bi_location ("ID"),
   CONSTRAINT bi_asset_detail_tenant_id_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID")

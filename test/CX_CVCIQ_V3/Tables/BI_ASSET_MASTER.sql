@@ -11,6 +11,7 @@ CREATE TABLE cx_cvciq_v3.bi_asset_master (
   updated_ts TIMESTAMP,
   updated_by VARCHAR2(256 BYTE),
   "VERSION" NUMBER,
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_asset_master_unique UNIQUE ("TYPE","NAME"),
   CONSTRAINT bi_asset_master_tenant_id_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID")
 );
