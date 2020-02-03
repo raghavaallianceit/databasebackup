@@ -13,5 +13,6 @@ CREATE TABLE cx_cvciq_v3.bi_asset_detail_documents (
   updated_by VARCHAR2(256 BYTE),
   updated_ts TIMESTAMP,
   is_active CHAR(256 BYTE),
-  "VERSION" NUMBER
+  "VERSION" NUMBER,
+  idx_token VARCHAR2(8 BYTE)
 );

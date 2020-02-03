@@ -10,6 +10,7 @@ CREATE TABLE cx_cvciq_v3.bi_location_type (
   updated_by VARCHAR2(256 BYTE),
   is_active CHAR(256 BYTE),
   "VERSION" NUMBER,
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_location_type_pk PRIMARY KEY ("ID"),
   CONSTRAINT bi_location_type_unique UNIQUE ("NAME"),
   CONSTRAINT bi_location_type_tenant_id_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID")

@@ -34,5 +34,6 @@ CREATE TABLE cx_cvciq_v3.bi_location (
   location_longitude VARCHAR2(256 BYTE),
   location_order NUMBER,
   location_timezone_db VARCHAR2(100 BYTE),
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_location_pk PRIMARY KEY ("ID")
 );

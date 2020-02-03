@@ -14,6 +14,7 @@ CREATE TABLE cx_cvciq_v3.bi_user (
   updated_by VARCHAR2(256 BYTE),
   "VERSION" NUMBER,
   color_code VARCHAR2(20 BYTE),
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_user_pk PRIMARY KEY ("ID"),
   CONSTRAINT bi_user_unique UNIQUE (user_name),
   CONSTRAINT bi_user_tenantid_fk FOREIGN KEY (tenant_id) REFERENCES cx_cvciq_v3.bi_tenant ("ID")

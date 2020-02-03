@@ -13,6 +13,7 @@ CREATE TABLE cx_cvciq_v3.bi_location_user (
   "VERSION" NUMBER,
   active_from DATE,
   is_active CHAR,
+  idx_token VARCHAR2(8 BYTE),
   CONSTRAINT bi_location_user_pk PRIMARY KEY ("ID"),
   CONSTRAINT bi_location_user_fk1 FOREIGN KEY (user_id) REFERENCES cx_cvciq_v3.bi_user ("ID")
 );
